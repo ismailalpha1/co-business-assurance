@@ -1,0 +1,224 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 600;
+}
+
+/* header css */
+.navbar-brand .logo{
+    max-width:100%;
+    max-height:180px;
+}
+.nav-item{
+    margin: auto !important;
+    text-align:center;
+}
+.nav-item:hover{
+  margin: auto !important;
+  text-align:center;
+  border-top:rgb(217, 22, 64) solid 2px;
+}
+
+.nav-item .nav-link{
+  color:rgb(46, 44, 44) !important;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+}
+#phone{
+    margin: auto;
+    padding:10%;
+}
+#Appointment{
+    margin:auto;
+    padding:10%;
+}
+#btn{
+    border-radius:10px !important;
+}
+
+
+/* banner css */
+.teaser {
+    background-image: url("./../image/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    height:600px;
+    padding: 20px;
+}
+#assurance-head{
+    display:flex;
+    margin:10px;
+    text-align: center;
+}
+
+p{
+    font-size: medium;
+    font-weight: 400 !important;
+    margin: 5%;
+}
+
+h4{
+    color: rgb(40, 40, 219);
+    font-size: large;
+    margin: 5%;
+}
+h1{
+    color:rgb(7, 7, 104);
+    font-weight: bolder;
+    margin: 5%;
+}
+.banner-div{
+  padding:5px;
+  background-color: white;
+  border-radius: 20px;
+  height:80px;
+  text-align: center;
+}
+
+.banner-a{
+  text-decoration: none;
+  font-size:larger !important;
+}
+
+.banner-div span{
+  text-align: center !important;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px !important;
+  color: black;
+}
+.banner-div span:hover{
+  color:black;
+}
+
+.assurances{
+  display:flex; 
+  flex-wrap:wrap;
+  max-width: fit-content;
+  align-items: center;
+  margin: auto !important;
+}
+
+#assurance-head a{
+  background-color: white;
+  padding:10px;
+  margin:2px;
+  width:40%;
+  border-radius:10px;
+  text-align: center;
+  text-decoration:none;
+  color:black;
+}
+.banner-a:hover,
+#assurance-head a:hover{
+  color: black;
+}
+
+.compare-bar select {
+  display: block;
+  height: 60px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  text-align: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  background: #fff;
+}
+/* about us */
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+.about-img img{
+    max-width:500px !important;
+    margin:20px;
+}
+.about-content{
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+/* end about-us section */
+/* why us */
+.why-us {
+    background-color: rgba(29, 43, 79, 255);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .why-us .container h4 {
+    color: #58669a !important;
+  }
+  .why-us .container h2 {
+    color: black;
+    margin: 0;
+  }
+  .why-us .container {
+    padding: 50px 0;
+  }
+  .services-why-us {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+  }
+  
+  .services-why-us p {
+    color: rgba(255, 255, 255, 0.4) !important;
+  }
+  
+  .services-why-us * {
+    width: 50%;
+  }
+  
+  div.all-services-why-us {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.4);
+    margin-top: 50px;
+  }
+  
+  div.all-services-why-us p {
+    color: #58669a;
+    margin: 0;
+    padding: 10px 20px;
+  }
+  
+  div.all-services-why-us h3,
+  #icone-why-us {
+    line-height: 100%;
+    color: black;
+    margin-top: 30px;
+  }
+  
+  div.card-content {
+    border: solid grey 1px;
+    border-radius: 15px;
+    width: 23%;
+    margin-bottom: 0px;
+    padding-bottom: 20px !important;
+  }
+  
+  
+  #icone-why-us {
+    font-size: 54px;
+  }
+
+/* Contact us section */
+.contact-us{
+    margin-top: 100px;
+}
+.contact-us h1{
+    text-align: center;
+}
+.contact-us form{
+    margin:auto;
+}

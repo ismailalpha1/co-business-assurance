@@ -1,0 +1,52 @@
+@media (max-width:1239px){
+    .contact{
+        display:none;
+    }
+    .teaser .container .block {
+        width: 100%;
+        text-align: center;
+    }
+    .about{
+        display: block;
+        text-align: center;
+    }
+    .about-img img{
+        max-width:300px !important;
+        margin:20px;
+    }
+    .about-content{
+        display: block;
+        text-align: center;
+    }
+    .services-why-us h2{
+        margin-left:20px !important;
+    }
+    .all-services-why-us{
+        display: block !important;
+    }
+    div.card-content {
+        width: 100% !important;
+        margin-bottom: 0px;
+        padding-bottom: 20px;
+    }
+    .assurances{
+        display:block;
+    }
+    .teaser{
+        height:fit-content;
+    }
+    #assurance-head{
+        display:block !important;
+    }
+    #assurance-head a{
+        background-color: blue;
+        padding:10px !important;
+        margin:0 !important;
+        width:40%;
+        border-radius:10px;
+        text-align: center;
+        text-decoration:none;
+        color:white;
+      }
+
+}
