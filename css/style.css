@@ -41,7 +41,13 @@
 #btn{
     border-radius:10px !important;
 }
-
+/* DROPDOWN MENU */
+.dropdown-menu{
+  width:1000px !important;
+}
+#dropdown-autre{
+  max-width:fit-content !important;
+}
 
 /* banner css */
 .teaser {

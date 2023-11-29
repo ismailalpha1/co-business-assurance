@@ -47,6 +47,8 @@
         text-align: center;
         text-decoration:none;
         color:white;
-      }
-
+    }
+    .dropdown-menu{
+        width:fit-content !important;
+    }
 }
