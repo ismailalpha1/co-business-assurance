@@ -1,7 +1,7 @@
 *{
     margin:0;
     padding:0;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:Helvetica;
     font-size: medium;
     font-weight: 600;
 }
@@ -55,7 +55,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     margin: auto;
-    height:600px;
+    height:650px;
     padding: 20px;
 }
 #assurance-head{
@@ -65,18 +65,18 @@
 }
 
 p{
-    font-size: medium;
-    font-weight: 400 !important;
+    font-size: larger;
+    font-weight: 500 !important;
     margin: 5%;
 }
 
 h4{
-    color: rgb(40, 40, 219);
-    font-size: large;
+    color: rgb(217, 22, 64);
+    font-size: larger !important;
     margin: 5%;
 }
 h1{
-    color:rgb(7, 7, 104);
+    color:rgb(225, 0, 0);
     font-weight: bolder;
     margin: 5%;
 }
@@ -154,14 +154,13 @@ h1{
 /* end about-us section */
 /* why us */
 .why-us {
-    background-color: rgba(29, 43, 79, 255);
     margin: 0;
     display: flex;
     justify-content: center;
   }
   
   .why-us .container h4 {
-    color: #58669a !important;
+    color: black !important;
   }
   .why-us .container h2 {
     color: black;
@@ -172,12 +171,12 @@ h1{
   }
   .services-why-us {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     color: black;
   }
   
   .services-why-us p {
-    color: rgba(255, 255, 255, 0.4) !important;
+    color: white;
   }
   
   .services-why-us * {
@@ -193,7 +192,7 @@ h1{
   }
   
   div.all-services-why-us p {
-    color: #58669a;
+    color:black;
     margin: 0;
     padding: 10px 20px;
   }
@@ -220,11 +219,33 @@ h1{
 
 /* Contact us section */
 .contact-us{
-    margin-top: 100px;
+    margin-top: 50px;
+    height:fit-content;
 }
 .contact-us h1{
     text-align: center;
 }
 .contact-us form{
     margin:auto;
+}
+
+
+/* footer  */
+.footer-mobile{
+  font-family: "Lato",Helvetica,Arial,sans-serif;
+  font-size: 1.6rem;
+  font-weight: normal;
+  line-height: 1.42857143;
+  color: #3a434a;
+  font-style: normal;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin-top: 40px;
+
+}
+
+.footer-mobile a,
+.footer-mobile li{
+  text-decoration: none;
+  color:gray;
 }
